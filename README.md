@@ -13,4 +13,5 @@ A new flutter app to buy and sell quality sneakers at fair prices and access a w
 # 📸 ScreenShots
 | 1 | 2 |
 |-------|-------|
+|<img src="/screenshots/1.jpg"/>|<img src="/screenshots/2.jpg">|
 # 😇 Author(s)
