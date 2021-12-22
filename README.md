@@ -6,6 +6,9 @@ A new flutter app to buy and sell quality sneakers at fair prices and access a w
 
 # ✍️ Requirements
 # 📝 Features
+<ul>
+    <li> Login/SignUp <input type="checkbox" /></li>
+</ul>
 
 # 📸 ScreenShots
 
