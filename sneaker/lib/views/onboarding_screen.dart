@@ -1,6 +1,8 @@
 import "package:flutter/material.dart";
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sneaker/components/logo.dart';
+import 'package:sneaker/views/auth/sign_in.view.dart';
+import 'package:sneaker/views/auth/sign_up.view.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   static const String routeName = "/onBoarding";
@@ -113,7 +115,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       borderRadius: BorderRadius.circular(70),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushNamed(SignInView.routeName);
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sneaker/locator.dart';
+import 'package:sneaker/views/auth/sign_in.view.dart';
+import 'package:sneaker/views/auth/sign_up.view.dart';
 import 'package:sneaker/views/onboarding_screen.dart';
 import 'package:sneaker/views/splash_screen.dart';
 
@@ -22,6 +24,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         OnBoardingScreen.routeName: (context) => const OnBoardingScreen(),
+        SignUpView.routeName: (context) => const SignUpView(),
+        SignInView.routeName: (context) => const SignInView(),
       },
     );
   }
